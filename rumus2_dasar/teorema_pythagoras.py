@@ -23,7 +23,7 @@ plt.plot(x_coords,y_coords,marker='o',label="segitiga siku-siku")
 
 # menambahkan label sisi pada grafik
 plt.text(a / 2, -0.5, f"a = {a}", ha="center", fontsize=10, color='blue')
-plt.text(-0.5,  b / 2, f"b = {b}", ha="center", fontsize=10, color='blue')
+plt.text(-0.5,  b / 2, f"b = {b}", va="center", fontsize=10, color='blue')
 plt.text(a / 2, b/ 2, f"c= {c:.2f}", fontsize=10, color='red')
 
 # mengatur tampilan grafik
